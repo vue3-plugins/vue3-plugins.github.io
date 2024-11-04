@@ -533,10 +533,10 @@ vite@^5.4.10:
   dependencies:
     "@vue/devtools-api" "^6.6.4"
 
-vue3-katex@^0.7.0-1:
-  version "0.7.0-2"
-  resolved "https://registry.yarnpkg.com/vue3-katex/-/vue3-katex-0.7.0-2.tgz#8134a2ae555b565aa0b91e9a4717d0b72689134a"
-  integrity sha512-npK/AhHzgykg6n4wZK9BzMw8z8KdZb5i/mo+iS/AJjQ0LSjXIgTyzjdcTSjv4G1869kS3FtnaK7aAmTWSP62tA==
+vue3-katex@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/vue3-katex/-/vue3-katex-0.7.0.tgz#14775e732d77c515e3a8511877230ef0f35d796c"
+  integrity sha512-kTcfI3an9yX2i8pXKoPqMKNpXUwZv3wYvfn8PTRqlkffbVLOmlnpNYbNUA048ZLg+8PAhevwyDuiLgH7oiTt6A==
   dependencies:
     deepmerge "^4.2.2"
     katex "^0.16.2"
