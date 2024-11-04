@@ -23,7 +23,7 @@ app.use(Vue3Katex, {
 })
 app.use(
   createGtm({
-    id: 'GTM-KB3ZDMWH',
+    id: 'G-B10R9JKHCQ',
   })
 )
 app.mount('#app')
