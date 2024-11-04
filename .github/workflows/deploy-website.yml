@@ -7,7 +7,7 @@ on:
 
 jobs:
   github-deploy:
-    if: github.repository == 'vue3-plugins/examples'
+    if: github.repository == 'vue3-plugins/vue3-plugins'
     name: Deploying website
     runs-on: ubuntu-22.04
     permissions:
@@ -38,5 +38,6 @@ jobs:
           git checkout --orphan dist
           touch .nojekyll
           git --work-tree dist add --all
-          git --work-tree dist commit -m "Add no jekyll file."
+          git --work-tree dist add .nojekyll
+          git --work-tree dist commit -m "Commit new changes to website."
           git push origin HEAD:website --force
