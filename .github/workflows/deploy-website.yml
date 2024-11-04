@@ -1,4 +1,4 @@
-name: Deploy libCellML website
+name: Deploy example website
 
 on:
   push:
@@ -10,6 +10,8 @@ jobs:
     if: github.repository == 'vue3-plugins/examples'
     name: Deploying website
     runs-on: ubuntu-22.04
+    permissions:
+      contents: write
     steps:
       - name: Setup Node.js
         uses: actions/setup-node@v4
