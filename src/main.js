@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import { createGtm } from '@gtm-support/vue-gtm'
+import VueGtag from 'vue-gtag'
 
 import PrimeVue from 'primevue/config'
 import Aura from '@primevue/themes/aura'
@@ -21,9 +21,9 @@ app.use(Vue3Katex, {
     //... Define globally applied KaTeX options here
   },
 })
-app.use(
-  createGtm({
+app.use(VueGtag, {
+  config: { 
     id: 'G-B10R9JKHCQ',
-  })
-)
+  }
+})
 app.mount('#app')
