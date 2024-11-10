@@ -6,7 +6,6 @@
   import DisplayChemistry from './components/DisplayChemistry.vue'
 
   onMounted(() => {
-    console.log(`the component is now mounted.`)
     event('page_mounted', { name: 'main' })
   })
   
